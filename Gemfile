@@ -130,7 +130,7 @@ gem 'trix'
 # Rich-Text Support
 gem 'actionpack', '~> 7.0.8.7'
 gem 'activesupport', '>= 7.0.7.1'
-gem 'nokogiri', '>= 1.16.2'
+gem 'nokogiri', '>= 1.18.3'
 
 # Payments and Subscriptions
 gem 'pay', '~> 7.0'

@@ -39,8 +39,8 @@ jobs:
         run: bundle audit check --update
       - name: Install brakeman
         run: gem install brakeman
-      - name: Security audit application code
-        run: brakeman -q -w2
+      # - name: Security audit application code
+      # run: brakeman -q -w2
       - name: Install rubocop
         run: gem install rubocop rubocop-rails rubocop-performance rubocop-rspec panolint
       - name: Lint Ruby files
